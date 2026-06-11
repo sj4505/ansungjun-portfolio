@@ -9,10 +9,9 @@
 
 ## 스크린샷
 
-| 홈 | 매칭 검수 대시보드 (관리자) | 팀장 채팅 (Realtime) |
-| --- | --- | --- |
-| ![홈 화면](docs/screenshots/01-home.png) | ![매칭 대시보드](docs/screenshots/02-admin.png) | ![팀장 채팅](docs/screenshots/03-chat.png) |
-| 성향 테스트로 진입하는 랜딩 페이지 | 자동 매칭 엔진의 추천 결과와 점수 산정 근거를 확인하는 화면. Supabase에 저장된 팀 데이터를 실시간으로 불러옵니다 (연결 실패 시 mock 데이터로 자동 폴백). | 매칭이 확정된 두 팀의 팀장이 대화하는 채널. Supabase Realtime으로 메시지가 즉시 동기화됩니다. |
+![웰컴 · 홈 · 성향 테스트](docs/screenshots/showcase-1.png)
+
+![매칭 결과 · 만남 확정 · 채팅](docs/screenshots/showcase-2.png)
 
 ---
 

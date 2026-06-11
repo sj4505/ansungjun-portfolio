@@ -117,16 +117,6 @@ npm run dev
 
 ---
 
-## 협업 규칙
-
-이 저장소는 두 명이 함께 작업합니다 — 자세한 내용은 [`docs/COLLABORATION.md`](../docs/COLLABORATION.md), [`docs/INTERFACE_CONTRACT.md`](../docs/INTERFACE_CONTRACT.md)를 참고하세요.
-
-- `lib/types.ts` 변경 시 → PR + 상대방 리뷰 필수
-- `supabase/migrations/` 신규 파일 추가 시 → 상대방 확인 없이 main 머지 금지
-- `main` 브랜치 직접 push 금지
-
----
-
 ## 배포
 
 [Vercel](https://vercel.com)에 연결되어 있으며, `main` 브랜치 push 시 자동 배포됩니다. 배포 환경에도 `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` 환경변수를 등록해야 실제 DB와 연동됩니다.

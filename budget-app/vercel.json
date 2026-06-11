@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/webhook/polar.js": {
+      "memory": 128
+    }
+  }
+}
